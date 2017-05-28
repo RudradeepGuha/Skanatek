@@ -9,9 +9,11 @@ Next, we need to build the Docker image. Name the image whatever you like. The `
 `docker build -t some_image_name:v1 . `
 
 Then run the docker container. You can use a port other than 80, like 8080, too. 
+
 `docker run -d -p 80:80 some_image_name:v1`
 
 Finally, to view the web page, check your docker virtual machine ip by doing
+
 `docker-machine ip`
 
 With the ip address you get (for example- 192.168.99.100), open your preferred browser and just go to 'http://192.168.99.100:80/datetime.html'. You can replace '80' with whatever port you have chosen and 'datetime.html' with your preferred file name.
@@ -24,7 +26,7 @@ Download the tar file provided, which contains the pre-built image. In your dock
 
 `docker load -i <path/to/file/dw.tar>`
 
-It will give a result like `Loaded image: django_webapp:v1`. Then do
+It will give a result like `Loaded image: django_webapp:v1`. Then do,
 
 `docker run -d -p 80:80 django_webapp:v1` 
 
