@@ -4,7 +4,7 @@ Simply open the HTML file, and the web page will start in your default web brows
 
 ### Build a Docker container to run web application
 
-To run the web page in a Docker container, start your command-line interface and go to the folder where the files are stored.
+To run the web page in a Docker container copy the html file, jpeg file and Dockerfile into a directory, start your command-line interface and go to the directory where the files are stored.
 
 `cd "path/to/file"`
 
