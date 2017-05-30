@@ -1,0 +1,14 @@
+body {
+      padding: 20px 5%;
+      color: yellow;
+      font-family: Sabon, serif;
+      background: url("images/hks.jpeg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin: auto;
+      max-width: 800px;
+    }
+@media (min-width: 600px) {
+}
